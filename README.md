@@ -12,14 +12,22 @@ This proxy:
     Automatically injects the last valid signature into the next functionCall request.
     Acts as a bridge between your IDE and Google, ensuring the Agent loop stays unbroken.
 
-# Setup
-    pip install flask requests
-    export GEMINI_API_KEY='your-api-key'
-    python gemini_proxy.py
+## Setup
+1. **Install dependencies:**
+```bash
+   pip install flask requests
+```
+2. **Set API KEY Windows:**
+```bash
+    set GEMINI_API_KEY='your-api-key'
+```
+4. **Start Proxy**
+```bash
+   python gemini_proxy.py
+```
 
 # IDE Configuration (Example: Continue.dev)
-JSON
-
+```json
 {
   "models": [
     {
@@ -30,3 +38,4 @@ JSON
     }
   ]
 }
+```
