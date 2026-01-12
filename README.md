@@ -23,7 +23,7 @@ This proxy:
 ```
 4. **Start Proxy**
 ```bash
-   python gemini_proxy.py
+   python main.py
 ```
 
 # IDE Configuration (Example: Continue.dev)
